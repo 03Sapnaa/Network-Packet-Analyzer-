@@ -10,18 +10,19 @@ Real-Time Monitoring: Display network traffic in real-time, with the option to l
 Statistics and Reporting: Generate summaries and statistics, such as packet count, protocol distribution, and communication patterns.
 
 Explanation:
+
+
 Packet Capturing:
-
 The tool uses Scapy, a powerful Python library, to capture network packets. You can specify the network interface (e.g., eth0) and the number of packets to capture.
+
 Protocol Analysis:
-
 The tool identifies and prints out basic information about the captured packets, including the IP addresses, protocols (TCP, UDP, ARP), and port numbers.
+
 Real-Time Monitoring:
-
 The captured packets are analyzed and printed in real-time, providing instant visibility into network activity.
+
 Customization:
-
 The tool can be customized to capture only specific types of packets or to perform deeper protocol analysis, such as HTTP request/response analysis.
-Statistics and Reporting:
 
+Statistics and Reporting:
 The code can be extended to include statistical analysis, such as counting the number of packets per protocol or generating a summary report of the captured traffic.
